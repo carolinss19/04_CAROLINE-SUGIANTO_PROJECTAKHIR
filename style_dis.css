@@ -1,0 +1,165 @@
+body {
+    font-family: 'Avenir', sans-serif;
+    background-color: #d1e8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #003366;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    padding: 10px 0; 
+}
+
+.navbar-text button a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.navbar-text button a:visited,
+.navbar-text button a:hover,
+.navbar-text button a:active {
+  color: white !important;
+}
+
+.container-fluid h3{
+    margin-top:10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.container h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.back{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #003366; 
+    font-weight: 600; 
+    margin-bottom: 15px; 
+}
+
+
+/* Tabel Display Upload */
+fieldset {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 95%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2575fc;
+    padding: 0 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+table th, table td {
+    padding: 12px 8px;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #2575fc;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #d9e1ff;
+    transition: 0.3s;
+}
+
+table img {
+    border-radius: 6px;
+}
+
+/* Link Option */
+table a {
+    color: #2575fc;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+table a:hover {
+    color: #6a11cb;
+    text-decoration: underline;
+}
+
+/* Tambahan spacing antara navbar dan tabel */
+body fieldset {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .header_home h2 {
+        font-size: 2.2em; 
+    }
+    .header_home p {
+        font-size: 1.1em; 
+    }
+    .gbr_login img {
+        width: 100%; 
+    }
+    .carousel img {
+        height: 350px; 
+    }
+    .content_home {
+        padding: 20px; 
+        margin: 20px; 
+    }
+}
+
+@media (max-width: 480px){
+    .header_home {
+        padding: 40px 15px;
+    }
+    .header_home h2 {
+        font-size: 1.8em; 
+    }
+    .carousel img {
+        height: 250px; 
+    }
+    .content_home {
+        padding: 15px; 
+    }
+}
+
+.footer {
+       background-color: #003366;
+       color: #ffffff;
+       text-align: center;
+       padding: 20px;
+       margin-top: 50px;
+       font-size: 0.9em;
+   }
+   .footer p {
+       margin: 0;
+   }

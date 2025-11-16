@@ -1,0 +1,347 @@
+/* bagian dasar semua halaman (navbar sama body) */
+body {
+    font-family: 'Avenir', sans-serif;
+    background-color: #d1e8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #003366;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    padding: 10px 0; 
+}
+
+.navbar-text button a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.navbar-text button a:visited,
+.navbar-text button a:hover,
+.navbar-text button a:active {
+  color: white !important;
+}
+
+.gbr_login{
+    text-align: center; 
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    padding-bottom: 35px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.gbr_login img {
+    align-items: center;
+    max-width: 100%; 
+    height: auto; 
+    width: 600px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
+    transition: transform 0.3s ease;
+}
+.gbr_login h2{
+    color: #9b4600;
+    font-size:x-large;
+    margin-top:15px;
+    margin-bottom: 25px;
+}
+
+.header_home {
+    text-align: center; 
+    padding: 60px 20px; 
+    background: linear-gradient(135deg, #003366, #005b99); 
+    color: #ffffff; 
+    margin-bottom: 30px; 
+    position: relative; 
+}
+
+.header_home h2 {
+    font-size: 3em; 
+    font-weight: 700; 
+    margin-bottom: 15px; 
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3); 
+}
+.header_home p {
+    font-size: 1.3em; 
+    font-weight: 300; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.content_home{
+    text-align: justify;
+    font-size: large;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.content_home p{
+    color: #333;
+}
+
+fieldset{
+    background-color: rgb(186, 208, 255);
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.container-fluid h3{
+    margin-top:10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.container h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#carouselExampleFade {
+    max-width: 900px; 
+    margin: 0 auto; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    margin-bottom: 50px; 
+}
+
+.carousel {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.carousel img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%; 
+    object-fit: cover; 
+    margin-top:75px;
+    margin-bottom: 50px;
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,0.6); 
+    border-radius: 8px; 
+    padding: 15px; 
+    bottom: 20px; 
+    left: 20px; 
+    right: 20px; 
+}
+
+.carousel-caption h5 {
+    color: #ffffff; 
+    font-weight: 600; 
+    margin-bottom: 5px; 
+}
+.carousel-caption p {
+    color: #e9ecef;     
+    font-weight: 400;
+}
+
+/* Kontrol carousel */
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.5); 
+    border-radius: 50%; 
+    padding: 10px; 
+}
+
+.quotes-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.quotes-section h3 {
+    font-size: 2em;
+    color: #003366;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.quotes-section blockquote {
+    font-style: italic;
+    color: #555;
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #007bff; /* Garis biru untuk hiasan */
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.features-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    text-align: center;
+}
+.features-section h3 {
+    font-size: 2em;
+    color: #003366;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.feature-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.feature-item:hover {
+    transform: translateY(-5px); /* Efek angkat saat hover */
+}
+.feature-item i {
+    font-size: 3em;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+.feature-item h4 {
+    font-size: 1.3em;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    color: #555;
+    font-size: 1em;
+}
+
+/* halaman about us */
+.card {
+    border: none; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15); 
+}
+
+.card-body {
+    padding: 20px;
+}
+.card-title {
+    font-size: 1.5em; 
+    font-weight: 600; 
+    margin-bottom: 10px; 
+}
+.card-text {
+    color: #555; 
+    font-size: 1em; 
+}
+
+.card-title i {
+    margin-right: 10px; 
+}
+
+h3 {
+    color: #003366; 
+    font-weight: 600; 
+    margin-bottom: 15px; 
+}
+
+.col-md-6 p {
+    color: #292318; 
+    text-align: justify;
+}
+.row:has(.card-img-top) {
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+.row:has(.card-img-top) .col-md-4 {
+    display: flex;
+    justify-content: center; 
+}
+
+
+
+/* Styling untuk gambar di card tim */
+.card-img-top {
+    border-radius: 10px 10px 0 0; 
+}
+
+.container {
+    max-width: 1200px; 
+}
+
+@media (max-width: 768px) {
+    .header_home h2 {
+        font-size: 2.2em; 
+    }
+    .header_home p {
+        font-size: 1.1em; 
+    }
+    .gbr_login img {
+        width: 100%; 
+    }
+    .carousel img {
+        height: 350px; 
+    }
+    .content_home {
+        padding: 20px; 
+        margin: 20px; 
+    }
+}
+
+@media (max-width: 480px){
+    .header_home {
+        padding: 40px 15px;
+    }
+    .header_home h2 {
+        font-size: 1.8em; 
+    }
+    .carousel img {
+        height: 250px; 
+    }
+    .content_home {
+        padding: 15px; 
+    }
+}
+
+.footer {
+       background-color: #003366;
+       color: #ffffff;
+       text-align: center;
+       padding: 20px;
+       margin-top: 50px;
+       font-size: 0.9em;
+   }
+   .footer p {
+       margin: 0;
+   }

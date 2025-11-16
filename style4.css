@@ -1,0 +1,150 @@
+/* bagian dasar semua halaman (navbar sama body) */
+body {
+    font-family: 'Avenir', sans-serif;
+    background-color: #d1e8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #003366;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    padding: 10px 0; 
+}
+
+.navbar-text button a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.navbar-text button a:visited,
+.navbar-text button a:hover,
+.navbar-text button a:active {
+  color: white !important;
+}
+
+.container-fluid h3{
+    margin-top:10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.container h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #003366; 
+    font-weight: 600; 
+    margin-bottom: 15px; 
+}
+
+/* Container form */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-top:75px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.container h2 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.content{
+    flex:1;
+}
+/* Form styling */
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.btn-link-white {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-link-white:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Link register */
+p {
+    margin-top: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+       background-color: #003366;
+       color: #ffffff;
+       text-align: center;
+       padding: 20px;
+       margin-top: 50px;
+       font-size: 0.9em;
+   }
+   .footer p {
+       margin: 0;
+   }
